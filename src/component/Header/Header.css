@@ -1,0 +1,29 @@
+.header{
+    /* background-image:url('https://iili.io/d4LTBa.md.jpg'); */
+    background-image: url('https://iili.io/d4ZpmN.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 340px;
+    background-position: center;
+
+}
+.header h2{
+    color: white;
+    font-weight: 700;
+}
+.header h4{
+    color: white;
+}
+.headerStyle{
+    margin-left: 100px;
+    /* align-items: center;
+    justify-content: center; */
+    margin-top: 70px;
+}
+.nav-item a{
+    font-weight: bold;
+    color: rgb(235, 235, 235);
+}
+.nav-item a:hover{
+    color:white;
+}

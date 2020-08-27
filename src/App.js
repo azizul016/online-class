@@ -3,6 +3,7 @@ import './App.css';
 import fakeData from './fakeData';
 import Course from './component/Course/Course';
 import Cart from './component/Cart/Cart';
+import Header from './component/Header/Header';
 
 function App() {
   const [courses, setCourses] = useState(fakeData)
@@ -16,7 +17,8 @@ function App() {
   const total = totalPrice.toFixed(2);
   return (
     <div className="container-fluid">
-        <h2 className='text-center text-primary'>Online Class List</h2>
+      <Header></Header>
+        <h2 className='text-center text-primary my-5'>Online Class List</h2>
         <div className="row">
           <div className="col-md-9">
                 <div className="row">
