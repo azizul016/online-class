@@ -28,11 +28,11 @@ function App() {
                 </div>
           </div>
           <div className="col-md-3">
-              <h2 className='text-center'>Courses:{cart.length}</h2>
-              <h3 className='text-center'>Course Price:${total}</h3>
+            <h2 className='text-center'>Courses:{cart.length}</h2>
+            <h3 className='text-center'>Course Price:${total}</h3>
               <ul className="list-group">
                 {
-                cart.map(courses => <Cart courses={courses}></Cart>)
+                cart.map(courses => <Cart key={courses.id} courses={courses}></Cart>)
                 }
               </ul>
               <div className='text-center mx-3'>

@@ -1,0 +1,7 @@
+.card{
+    position: relative;
+}
+.style{
+    position: absolute;
+    bottom: 30px;
+}
